@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "composetest"
+version = "0.1.0"
+description = ""
+authors = ["Migue Vargas <lvc0107@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+redis = "^4.5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
